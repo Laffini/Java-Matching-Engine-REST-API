@@ -23,7 +23,7 @@
         <server>
             <id>github</id>
             <username>Laffini</username>
-            <password>${env.token}</password>
+            <password>${env.GITHUB_TOKEN_REF}</password>
         </server>
     </servers>
 </settings>
