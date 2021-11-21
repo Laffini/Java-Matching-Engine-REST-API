@@ -23,4 +23,4 @@ jobs:
     - name: Build with Maven
       env:
         token: ${{ secrets.GITHUB_TOKEN }}
-      run: mvn -s settings.xml -B package --file pom.xml
+      run: mvn install -s settings.xml -B package --file pom.xml
