@@ -22,7 +22,7 @@
     <servers>
         <server>
             <id>github</id>
-            <username>laffini</username>
+            <username>Laffini</username>
             <password>${env.token}</password>
         </server>
     </servers>
