@@ -1,6 +1,6 @@
 # Java-Matching-Engine REST API
 
-![Java CI with Maven](https://github.com/Laffini/Java-Matching-Engine/workflows/Java%20CI%20with%20Maven/badge.svg)
+![Java CI with Maven](https://github.com/Laffini/Java-Matching-Engine-REST-API/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 A matching engine written in Java.
 
