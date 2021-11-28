@@ -27,4 +27,4 @@ jobs:
       env:
           GITHUB_USER_REF: ${{ secrets.GH_PACKAGE_REPO_USERNAME }}
           GITHUB_TOKEN_REF: ${{ secrets.GH_PACKAGE_REPO_PASSWORD }}
-      run: mvn -s settings.xml -B package --file pom.xml -X
+      run: mvn clean install -s settings.xml -B package --file pom.xml -X
