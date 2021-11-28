@@ -20,5 +20,11 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+        server-id: github
+        server-username: GITHUB_USER_REF
+        server-password: GITHUB_TOKEN_REF
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      env:
+          GITHUB_USER_REF: ${{ secrets.GH_PACKAGE_REPO_USERNAME }}
+          GITHUB_TOKEN_REF: ${{ secrets.GH_PACKAGE_REPO_PASSWORD }}
+      run: mvn clean install -s settings.xml -B package --file pom.xml -X

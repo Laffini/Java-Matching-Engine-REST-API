@@ -5,7 +5,7 @@
 //import org.mockito.InjectMocks;
 //import org.mockito.Mock;
 //
-//import net.laffyco.javamatchingengine.core.api.SpreadInterface;
+//import net.laffyco.java-matching-engine.core.api.SpreadInterface;
 //
 ///**
 // * Tests the SpreadController.
