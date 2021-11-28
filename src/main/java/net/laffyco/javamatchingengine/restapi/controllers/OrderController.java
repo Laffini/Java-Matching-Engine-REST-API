@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import net.laffyco.java-matching-engine.core.api.OrderInterface;
-import net.laffyco.java-matching-engine.core.engine.Order;
-import net.laffyco.java-matching-engine.core.engine.Side;
+import net.laffyco.javamatchingengine.core.api.OrderInterface;
+import net.laffyco.javamatchingengine.core.engine.Order;
+import net.laffyco.javamatchingengine.core.engine.Side;
 
 /**
  * Controller for orders.
