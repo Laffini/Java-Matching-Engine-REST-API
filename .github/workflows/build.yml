@@ -22,5 +22,11 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: maven
+        server-id: github
+        server-username: GITHUB_USER_REF
+        server-password: GITHUB_TOKEN_REF
     - name: Build with Maven
+      env:
+          GITHUB_USER_REF: ${{ secrets.GH_PACKAGE_REPO_USERNAME }}
+          GITHUB_TOKEN_REF: ${{ secrets.GH_PACKAGE_REPO_PASSWORD }}
       run: mvn -s settings.xml -B package --file pom.xml
