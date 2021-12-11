@@ -16,7 +16,7 @@ import net.laffyco.javamatchingengine.core.api.SpreadInterface;
  *
  */
 @RestController
-@RequestMapping("/spread")
+@RequestMapping("/api/v1/spread")
 public class SpreadController {
 
     /**

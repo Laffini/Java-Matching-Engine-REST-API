@@ -25,7 +25,7 @@ import net.laffyco.javamatchingengine.core.engine.Side;
  *
  */
 @RestController
-@RequestMapping("/order")
+@RequestMapping("/api/v1/order")
 public class OrderController {
 
     /**

@@ -42,10 +42,10 @@ User A creates a buy order of 2 items (e.g. 2 shares, 2 bitcoin, etc) with a pri
 ##### Request
 
 ```
-POST /order/
-	?side=BUY
-    &amount=2
-    &price=5
+POST /api/v1/order/
+		?side=BUY
+		&amount=2
+		&price=5
 ``` 
 ##### Response
 
@@ -67,10 +67,10 @@ User B creates a sell order of 2 items with a price of 5.
 ##### Request
 
 ```
-POST /order/
-	?side=SELL
-    &amount=2
-    &price=5
+POST api/v1//order/
+		?side=SELL
+		&amount=2
+		&price=5
 ``` 
 
 ##### Response
